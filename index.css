@@ -1,0 +1,78 @@
+.anime-bg {
+    position: relative;
+    min-height: 100vh;
+    padding: 2rem 0;
+    overflow: hidden;
+}
+
+.anime-bg video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.profile-card {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.avatar-container {
+    position: relative;
+    display: inline-block;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.social-links .btn {
+    transition: all 0.3s ease;
+    border-radius: 50px;
+    padding: 0.8rem 2rem;
+}
+
+.discord-btn {
+    background-color: #7289da;
+    border-color: #7289da;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.gmail-btn {
+    background-color: #ea4335;
+    border-color: #ea4335;
+}
+
+.social-links .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .social-links .btn {
+        width: 100%;
+        margin: 0.5rem 0 !important;
+    }
+
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/*THuộc bản quyền của thiên Phúc */
